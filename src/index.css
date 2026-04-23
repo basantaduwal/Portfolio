@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ebeae4;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav ul li {
+  transition: 0.3s;
+}
+
+nav ul li:hover {
+  color: #38bdf8;
+  cursor: pointer;
+  border-bottom: 1px solid #38bdf8;
+}
+
+.footer-p {
+    background-color: #d5d4ce;
+}

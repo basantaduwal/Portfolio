@@ -1,0 +1,77 @@
+.hero {
+  display: grid;
+  background-color: #f0eeea;
+  grid-template-columns: 60% 40%;
+  padding: 30px 60px;
+  margin: 30px 20px;
+  border: 1px solid #b0b0b0;
+  border-radius: 30px;
+  box-shadow: 5px 10px #888888;
+  line-height: 2;
+}
+
+.hero .left p {
+  color: rgb(113, 113, 113);
+  background-color: #f0eeea;
+}
+
+.hero .left h1 {
+  font-size: 50px;
+  background-color: #f0eeea;
+}
+
+.hero .left buttons {
+  display: flex;
+  gap: 40px;
+  background-color: #f0eeea;
+}
+
+.hero .left .buttons .download {
+  background-color: rgb(60, 60, 60);
+  color: #f0eeea;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+  margin-top: 5rem;
+  border: 1px solid rgb(60, 60, 60);
+  border-radius: 10px;
+}
+
+.hero .left .buttons .learn {
+  background-color: #f0eeea;
+  color: rgb(60, 60, 60);
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+  margin-top: 5rem;
+  border: 1px solid rgb(60, 60, 60);
+  border-radius: 10px;
+}
+
+.hero .left .buttons .download:hover {
+  cursor: pointer;
+  background-color: #f0eeea;
+  color: rgb(60, 60, 60);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.hero .left .buttons .learn:hover {
+  cursor: pointer;
+  background-color: rgb(60, 60, 60);
+  color: #f0eeea;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.hero .right {
+  display: flex;
+  justify-content: center;
+  margin-left: 5rem;
+  align-items: center;
+  background-color: #f0eeea;
+}
+
+.hero .right img {
+  width: 20rem;
+  height: auto;
+  border-radius: 50%;
+}

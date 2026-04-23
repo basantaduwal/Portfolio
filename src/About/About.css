@@ -1,0 +1,38 @@
+.about {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  /* border: 1px solid gray; */
+  margin: 30px 40px;
+  padding: 20px 40px;
+  line-height: 2;
+}
+
+.skills-grid {
+    color: rgb(93, 93, 93);
+    padding: 10px 5rem;
+}
+
+.about-grid {
+    background-color: transparent;
+}
+
+.about h2 {
+    font-size: 30px;
+    border-bottom: 1px solid gray;
+    width: 9rem;
+}
+
+.about h2 span {
+  font-style: italic;
+  color: rgb(93, 93, 93);
+}
+
+.about p {
+  color: rgb(113, 113, 113);
+  margin: 20px 0px;
+}
+
+.about span {
+  color: black;
+  font-weight: 600;
+}
