@@ -9,11 +9,19 @@
 
 .skills-grid {
     color: rgb(93, 93, 93);
-    padding: 10px 5rem;
+    text-align: end;
+    border-right: 1px solid gray;
+    padding: 16px 40px 0px 0px;
+    border-bottom: 1px;
+}
+
+.about .skills-grid h4 {
+  font-size: large;
 }
 
 .about-grid {
     background-color: transparent;
+    padding-left: 40px;
 }
 
 .about h2 {

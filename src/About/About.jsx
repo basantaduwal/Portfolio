@@ -1,8 +1,15 @@
 function About() {
+  const skills = [{ name: "HTML", level: 90 }];
+
   return (
     <section className="about">
       <div className="skills-grid">
         <h4>TECHNICAL SKILLS</h4>
+        {skills.map((s) => (
+          <div className="skill-row">
+
+          </div>
+        ))}
       </div>
       <div className="about-grid">
         <h2>
